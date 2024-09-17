@@ -14,6 +14,7 @@ import { AiOutlineMenu } from "react-icons/ai"
 const UserMenu = () => {
 
     const registerModal = useRegisterModal()
+
     const loginModal = useLoginModal()
     const [isOpen, setIsOpen] = useState(false)
 

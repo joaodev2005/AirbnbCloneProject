@@ -119,7 +119,7 @@ const LoginModal = () => {
         <Modal
             disabled={isLoading}
             isOpen={loginModal.isOpen}
-            title="Register"
+            title="Login"
             actionLabel="Continue"
             onClose={loginModal.onClose}
             onSubmit={handleSubmit(onSubmit)}
