@@ -14,11 +14,12 @@
 <h2 id="technologies">💻 Technologies</h2>
 
 - JavaScript
-- react
+- React.js
 - TypeScript
 - Next.js
 - Tailwind
 - MongoDB
+- Prisma.js
 
 ## Setup
 
