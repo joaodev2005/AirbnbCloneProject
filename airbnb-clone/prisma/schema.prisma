@@ -74,6 +74,6 @@ model Reservation{
   totalPrice Int
   createdAt DateTime @default(now())
 
-  use User @relation(fields: [userid], references: [id], onDelete: Cascade)
+  user User @relation(fields: [userid], references: [id], onDelete: Cascade)
   listings Listing @relation(fields: [listingId], references: [id], onDelete: Cascade)
 }
