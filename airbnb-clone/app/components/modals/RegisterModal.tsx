@@ -15,7 +15,9 @@ import { FieldValues, SubmitHandler, useForm } from "react-hook-form"
 import toast from "react-hot-toast"
 
 import useRegisterModal from "@/app/hooks/useRegisterModal"
-import useLoginModal from "./LoginModal"
+// import useLoginModal from "./LoginModal"
+import useLoginModal from "@/app/hooks/useLoginModal";
+
 
 import Button from "../Button"
 import { signIn } from "next-auth/react"
