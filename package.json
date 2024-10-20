@@ -1,5 +1,7 @@
 {
   "dependencies": {
-    "next-auth": "^5.0.0-beta.21"
+    "next-auth": "^5.0.0-beta.21",
+    "react-select": "^5.8.1",
+    "world-countries": "^5.0.0"
   }
 }
